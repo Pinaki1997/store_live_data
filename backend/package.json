@@ -1,0 +1,21 @@
+{
+  "name": "customer-data-backend",
+  "version": "1.0.0",
+  "description": "backend application for customer live data",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "author": "Pinaki Dash",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "kafkajs": "^2.2.4",
+    "mysql2": "^3.11.0",
+    "nodemon": "^3.1.4",
+    "sequelize": "^6.37.3",
+    "socket.io": "^4.7.5"
+  }
+}
