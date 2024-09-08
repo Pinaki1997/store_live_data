@@ -28,8 +28,8 @@ const LiveTable = () => {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>{data?.total_customer_in}</td>
                         <td>{data?.store_id}</td>
+                        <td>{data?.total_customer_in}</td>
                         <td>{data?.total_customer_out}</td>
                         <td>{data?.event_time}</td>
                     </tr>
